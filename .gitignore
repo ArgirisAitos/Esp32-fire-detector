@@ -1,0 +1,29 @@
+# generated files
+*.log
+*.db
+*.sqlite
+*.bak
+*.swp
+*.tmp
+
+# InfluxDB
+influxdb/engine/
+influxdb/influxd.bolt
+influxdb/influxd.sqlite
+
+# Grafana
+grafana/grafana.db
+grafana/plugins/
+grafana/png/
+grafana/pdf/
+grafana/csv/
+
+# Mosquitto
+mosquitto/data/
+mosquitto/log/
+mosquitto/mosquitto.db
+
+# Telegraf logs
+telegraf/*.log
+
+
