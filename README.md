@@ -48,7 +48,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 
 # Setup Instructure 
 
-# 1. Flash ESP32
+### 1. Flash ESP32
 
 - Open `fire_detector.ino` in Arduino IDE.
 - Install required libraries (`DHT`, `WiFiManager`, `PubSubClient`).
@@ -60,7 +60,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 - Εnter the MQTT broker IP address in the code (`const char* mqtt_server = " ";`).
 
 
-# 2. Run the Docker Stack
+### 2. Run the Docker Stack
 
 ```bash
 docker-compose up -d
@@ -72,7 +72,7 @@ This will start:
 - InfluxDB time-series database
 - Grafana dashboard server
 
- # 3. InfluxDB Configuration
+ ### 3. InfluxDB Configuration
 
 When you run InfluxDB for the first time, it will initialize a fresh setup.
 
