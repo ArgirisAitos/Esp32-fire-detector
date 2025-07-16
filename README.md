@@ -78,11 +78,11 @@ This will start:
 
 # Visualization
 
-Grafana dashboards show:
+Grafana dashboards display:
 
-- Temperature and Humidity trends
-- Smoke levels (PPM)
-- Flame sensor status
+- Temperature and Humidity 
+- Smoke levels 
+- Flame levels
 
 # Screenshots
 
