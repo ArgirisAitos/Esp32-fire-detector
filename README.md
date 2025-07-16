@@ -84,6 +84,8 @@ Grafana dashboards show:
 
 ![Dashboard Example](./screenshots/grafana_dashboard.png)
 
+![Telegraf](./screenshots/telegraf.png)
+
 
 
 
