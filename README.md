@@ -83,7 +83,7 @@ Grafana dashboards show:
 # Screenshots
 
 ```markdown
-![Dashboard Example](./screenshots/grafana_dashboard.png)
+(./screenshots/grafana_dashboard.png)
 ```
 
 
