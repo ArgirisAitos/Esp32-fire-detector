@@ -40,7 +40,11 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 2. Sends values to MQTT broker (Mosquitto).
 3. Telegraf subscribes to MQTT and pushes data to InfluxDB.
 4. Grafana fetches and visualizes the data from InfluxDB.
-5. System triggers alarms if thresholds are exceeded.
+
+![Architecture Diagram](./screenshots/diagram.png) 
+
+
+
 
 # Setup Instructure 
 
