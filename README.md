@@ -19,7 +19,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 - MQ-2 smoke sensor
 - Flame sensor
 - Buzzer
-- 3 LEDs (green, yellow, red)
+- 3 LEDs
 
 # Software Requirements
 
