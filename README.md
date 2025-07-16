@@ -55,7 +55,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 - Connect to the ESP32's Wi-Fi network (e.g., `FireDetector-Setup`) and open the configuration portal.
 - Choose your local Wi-Fi network and enter your Wi-Fi credentials.
 - The ESP32 saves the settings and will automatically reconnect to the same Wi-Fi and MQTT broker in future restarts.
-- Εnter the MQTT broker IP address in the code e.g (`const char* mqtt_server = "";`).
+- Εnter the MQTT broker IP address in the code (`const char* mqtt_server = " ";`).
 
 ### 2. Run the Docker Stack
 
