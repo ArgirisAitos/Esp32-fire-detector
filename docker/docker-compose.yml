@@ -26,3 +26,13 @@ services:
       - DOCKER_INFLUXDB_INIT_BUCKET=fire_data
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=mytoken
      restart: unless-stopped 
+
+      telegraf:
+       image: telegraf
+       container_name: telegraf
+    depends_on:
+      - influxdb
+      - mosquitto
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    restart: unless-stopped
