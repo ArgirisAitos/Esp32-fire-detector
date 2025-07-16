@@ -70,7 +70,7 @@ This will start:
 
 - **InfluxDB**: http://localhost:8086
 - **Grafana**: http://localhost:3000  
-  (Default login: `admin` / `admin`)
+(Default login: `admin` / `admin`)
 
 # Visualization
 
@@ -80,6 +80,11 @@ Grafana dashboards show:
 - Smoke levels (PPM)
 - Flame sensor status
 
+# Screenshots
+
+```markdown
+![Dashboard Example](screenshots/grafana_dashboard.png)
+```
 
 
 
