@@ -5,7 +5,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 # Feature
 
 - Real-time monitoring of temperature, humidity, smoke and flame.
-- Wireless communication via Wi-Fi (ESP32).
+- Wireless communication via Wi-Fi.
 - Local alarm via LEDs and buzzer when danger is detected.
 - MQTT communication with Mosquitto broker.
 - Data stored as time-series in InfluxDB.
