@@ -41,7 +41,7 @@ This project implements a **Smart IoT Fire Detection System** using an **ESP32 m
 3. Telegraf subscribes to MQTT and pushes data to InfluxDB.
 4. Grafana fetches and visualizes the data from InfluxDB.
 
-![Architecture Diagram](./screenshots/diagram.png) 
+![Architecture Diagram](./images/diagram.png) 
 
 
 
@@ -86,9 +86,9 @@ Grafana dashboards show:
 
 # Screenshots
 
-![Dashboard Example](./screenshots/grafana_dashboard.png)
+![Dashboard Example](./images/grafana_dashboard.png)
 
-![Telegraf](./screenshots/telegraf.png)
+![Telegraf](./images/telegraf.png)
 
 
 
