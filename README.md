@@ -82,9 +82,8 @@ Grafana dashboards show:
 
 # Screenshots
 
-```markdown
-(./screenshots/grafana_dashboard.png)
-```
+![Dashboard Example](./screenshots/grafana_dashboard.png)
+
 
 
 
